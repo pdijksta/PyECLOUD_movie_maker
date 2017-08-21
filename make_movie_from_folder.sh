@@ -11,8 +11,6 @@ set -e
 # PyECLOUD must be in pythonpath, edit this line accordingly
 export PYTHONPATH=$PYTHONPATH
 
-# bunch passage at which to make the pngs
-
 if [[ $# == 2 ]] ; then
 	folder=$1
 	pass_to_save=$2
